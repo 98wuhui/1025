@@ -1,0 +1,54 @@
+<html>
+ <head> 
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <title>生日快乐！</title> 
+  <script src="js/wc-3.0.6.min.js"></script> 
+  <style>
+      input{
+        1width:200px;
+        2width:100px;
+        height:30px;
+        }
+      center{
+        margin-top:200px;
+      }
+      #ok{
+        margin-top:20px
+      }
+      body{
+          background-color:Yellow
+      }
+    </style> 
+  <script src="js/jq.js"></script> 
+ </head> 
+ <body id="v1"> 
+  <center id="v2"> 
+   <input id="pwd" tyoe="password" placeholder="请输入您的名字"> 
+   <input id="pwd" tyoe="password" placeholder="请输入您的生日"> 
+   <br id="v3"> 
+   <input id="ok" onclick="ok();" type="button" value="确认"> 
+  </center> 
+  <script>
+   	   function ok (){
+           let pwd = document.getElementById("pwd").value;
+          if(pwd == "10.25"){
+            wc.alert("密码正确");
+            wc.phoneHome();
+        }else{
+           wc.alert("祝您");
+           wc.alert("生日快乐！");
+           wc.alert("前程似锦！");
+           wc.alert("顺风顺水！");
+           wc.alert("恭喜发财！");
+           wc.alert("金榜题名！");
+           wc.alert("天天开心！");
+           window.open("https://wfya.github.io/love.html")
+         
+         }
+         }w
+	</script> 
+  <div id="v4"
+    id="v4" 
+  </div>  
+ </body>
+</html>
